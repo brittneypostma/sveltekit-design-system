@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	// look up way to import and list out all components in @components
+	import { Button } from 'carbon-components-svelte';
+</script>
+
+<h1>Carbon Design System</h1>
+
+<!-- {#each components as component} -->
+
+<Button>Primary button</Button>
+<!-- {/each} -->
