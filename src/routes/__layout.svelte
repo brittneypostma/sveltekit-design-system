@@ -2,4 +2,8 @@
 	import '@styles/styles.css';
 </script>
 
-<slot />
+<main>
+	<article class="grid">
+		<slot />
+	</article>
+</main>
