@@ -16,9 +16,6 @@
 		Select,
 		SelectItem
 	} from 'carbon-components-svelte';
-	import TextBold16 from 'carbon-icons-svelte/lib/TextBold16';
-	import TextItalic16 from 'carbon-icons-svelte/lib/TextItalic16';
-	import TextUnderline16 from 'carbon-icons-svelte/lib/TextUnderline16';
 
 	let index = 1;
 </script>
