@@ -1,19 +1,16 @@
 <script>
-	import 'carbon-components-svelte/css/white.css';
-	import {
-		Button,
-		Row,
-		Column,
-		Link,
-		TextInput,
-		Form,
-		FormGroup,
-		Checkbox,
-		RadioButtonGroup,
-		RadioButton,
-		Select,
-		SelectItem
-	} from 'carbon-components-svelte';
+	import Button from '@components/Button/Button.svelte';
+	import Link from '@components/Link/Link.svelte';
+	import Row from '@components/Grid/Row.svelte';
+	import Column from '@components/Grid/Column.svelte';
+	import TextInput from '@components/TextInput/TextInput.svelte';
+	import Form from '@components/Form/Form.svelte';
+	import FormGroup from '@components/FormGroup/FormGroup.svelte';
+	import Checkbox from '@components/Checkbox/Checkbox.svelte';
+	import RadioButtonGroup from '@components/RadioButtonGroup/RadioButtonGroup.svelte';
+	import RadioButton from '@components/RadioButton/RadioButton.svelte';
+	import Select from '@components/Select/Select.svelte';
+	import SelectItem from '@components/Select/SelectItem.svelte';
 </script>
 
 <Row style="margin-bottom: var(--cds-layout-04)">
