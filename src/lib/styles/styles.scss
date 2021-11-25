@@ -1,11 +1,5 @@
-@import './root';
-// @import './css/all';
-// @import './css/g10';
-// @import './css/g80';
-// @import './css/g90';
-// @import './css/g100';
-// @import './css/white';
-// @import './guidelines/layout';
-// @import './guidelines/colors';
-// @import './guidelines/spacing';
-// @import './guidelines/typography';
+@import './guidelines//reset.scss';
+@import './guidelines/colors.scss';
+@import './guidelines/layout.scss';
+@import './guidelines/spacing.scss';
+@import './guidelines/typography.scss';

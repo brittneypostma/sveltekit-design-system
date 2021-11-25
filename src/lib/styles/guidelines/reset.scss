@@ -25,6 +25,7 @@ body {
 	text-rendering: optimizeSpeed;
 	line-height: 1.5;
 	font-family: system-ui, sans-serif;
+	--webkit-font-smoothing: antialiased;
 }
 
 h1 {
@@ -44,6 +45,16 @@ h5 {
 }
 h6 {
 	font-size: 0.67rem;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
 }
 
 img,
