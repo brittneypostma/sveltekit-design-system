@@ -16,8 +16,6 @@
 		Select,
 		SelectItem
 	} from 'carbon-components-svelte';
-
-	let index = 1;
 </script>
 
 <Content>
