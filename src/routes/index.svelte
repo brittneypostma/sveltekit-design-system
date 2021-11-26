@@ -4,9 +4,9 @@
 
 <section class="row" style="margin-bottom: var(--cds-layout-04)">
 	<section class="col">
-		<h1>Vanilla CSS</h1>
+		<h1>Tailwind CSS</h1>
 		<p>
-			Vanilla CSS is a great way to create your design system. It is simple and easy to get started
+			Tailwind CSS is a great way to create your design system. It is simple and easy to get started
 			and requires little effort to customize and add to.
 		</p>
 

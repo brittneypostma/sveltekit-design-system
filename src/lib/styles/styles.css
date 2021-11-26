@@ -1,5 +1,53 @@
-@import './guidelines/reset.css';
-@import './guidelines/layout.css';
-@import './guidelines/colors.css';
-@import './guidelines/spacing.css';
-@import './guidelines/typography.css';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply leading-none text-sm tracking-base text-basics-900;
+	}
+	main {
+		@apply mt-8 flex;
+	}
+	.row {
+		@apply flex flex-wrap;
+	}
+	.col {
+		@apply max-w-full;
+		flex-basis: 0;
+		flex-grow: 1;
+	}
+	.col > p {
+		@apply max-w-44 text-base leading-normal mb-6;
+	}
+	.grid {
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 99rem;
+		padding: 0;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	hr {
+		@apply mb-5;
+	}
+	h1 {
+		@apply text-2xl;
+	}
+
+	h2 {
+		@apply text-xl;
+	}
+
+	h3 {
+		@apply text-lg;
+	}
+}

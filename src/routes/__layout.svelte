@@ -7,3 +7,6 @@
 		<slot />
 	</article>
 </main>
+
+<style>
+</style>
