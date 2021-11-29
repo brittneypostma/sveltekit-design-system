@@ -1,12 +1,10 @@
 <script>
 	import '@styles/styles.scss';
-	import { Content, Grid } from 'carbon-components-svelte';
+	import Grid from '@components/Grid/Grid.svelte';
 </script>
 
 <main>
-	<Content>
-		<Grid>
-			<slot />
-		</Grid>
-	</Content>
+	<Grid>
+		<slot />
+	</Grid>
 </main>
